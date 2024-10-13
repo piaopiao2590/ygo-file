@@ -45,42 +45,52 @@ public:
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName("Widget");
-        Widget->resize(221, 463);
+        Widget->resize(175, 460);
         Widget->setStyleSheet(QString::fromUtf8(""));
         label = new QLabel(Widget);
         label->setObjectName("label");
-        label->setGeometry(QRect(50, 30, 69, 19));
+        label->setGeometry(QRect(30, 30, 69, 19));
+        label->setStyleSheet(QString::fromUtf8(""));
         label_2 = new QLabel(Widget);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(50, 70, 69, 19));
+        label_2->setGeometry(QRect(30, 70, 69, 19));
+        label_2->setStyleSheet(QString::fromUtf8(""));
         label_3 = new QLabel(Widget);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(50, 110, 69, 19));
+        label_3->setGeometry(QRect(30, 110, 69, 19));
+        label_3->setStyleSheet(QString::fromUtf8(""));
         label_4 = new QLabel(Widget);
         label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(50, 150, 69, 19));
+        label_4->setGeometry(QRect(30, 150, 69, 19));
+        label_4->setStyleSheet(QString::fromUtf8(""));
         label_5 = new QLabel(Widget);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(50, 190, 69, 19));
+        label_5->setGeometry(QRect(30, 190, 69, 19));
+        label_5->setStyleSheet(QString::fromUtf8(""));
         label_6 = new QLabel(Widget);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(50, 230, 69, 19));
+        label_6->setGeometry(QRect(30, 230, 69, 19));
+        label_6->setStyleSheet(QString::fromUtf8(""));
         label_7 = new QLabel(Widget);
         label_7->setObjectName("label_7");
-        label_7->setGeometry(QRect(50, 270, 69, 19));
+        label_7->setGeometry(QRect(30, 270, 69, 19));
+        label_7->setStyleSheet(QString::fromUtf8(""));
         label_8 = new QLabel(Widget);
         label_8->setObjectName("label_8");
-        label_8->setGeometry(QRect(50, 310, 69, 19));
+        label_8->setGeometry(QRect(30, 310, 69, 19));
+        label_8->setStyleSheet(QString::fromUtf8(""));
         label_9 = new QLabel(Widget);
         label_9->setObjectName("label_9");
-        label_9->setGeometry(QRect(50, 350, 69, 19));
+        label_9->setGeometry(QRect(30, 350, 69, 19));
+        label_9->setStyleSheet(QString::fromUtf8(""));
         label_10 = new QLabel(Widget);
         label_10->setObjectName("label_10");
-        label_10->setGeometry(QRect(50, 390, 69, 19));
+        label_10->setGeometry(QRect(30, 390, 69, 19));
+        label_10->setStyleSheet(QString::fromUtf8(""));
         checkBox = new QCheckBox(Widget);
         checkBox->setObjectName("checkBox");
         checkBox->setEnabled(true);
-        checkBox->setGeometry(QRect(130, 20, 31, 41));
+        checkBox->setGeometry(QRect(110, 20, 31, 41));
         checkBox->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -93,7 +103,7 @@ public:
         checkBox_2 = new QCheckBox(Widget);
         checkBox_2->setObjectName("checkBox_2");
         checkBox_2->setEnabled(true);
-        checkBox_2->setGeometry(QRect(130, 60, 31, 41));
+        checkBox_2->setGeometry(QRect(110, 60, 31, 41));
         checkBox_2->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -106,7 +116,7 @@ public:
         checkBox_3 = new QCheckBox(Widget);
         checkBox_3->setObjectName("checkBox_3");
         checkBox_3->setEnabled(true);
-        checkBox_3->setGeometry(QRect(130, 100, 31, 41));
+        checkBox_3->setGeometry(QRect(110, 100, 31, 41));
         checkBox_3->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -119,7 +129,7 @@ public:
         checkBox_4 = new QCheckBox(Widget);
         checkBox_4->setObjectName("checkBox_4");
         checkBox_4->setEnabled(true);
-        checkBox_4->setGeometry(QRect(130, 140, 31, 41));
+        checkBox_4->setGeometry(QRect(110, 140, 31, 41));
         checkBox_4->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -132,7 +142,7 @@ public:
         checkBox_5 = new QCheckBox(Widget);
         checkBox_5->setObjectName("checkBox_5");
         checkBox_5->setEnabled(true);
-        checkBox_5->setGeometry(QRect(130, 180, 31, 41));
+        checkBox_5->setGeometry(QRect(110, 180, 31, 41));
         checkBox_5->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -145,7 +155,7 @@ public:
         checkBox_6 = new QCheckBox(Widget);
         checkBox_6->setObjectName("checkBox_6");
         checkBox_6->setEnabled(true);
-        checkBox_6->setGeometry(QRect(130, 220, 31, 41));
+        checkBox_6->setGeometry(QRect(110, 220, 31, 41));
         checkBox_6->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -158,7 +168,7 @@ public:
         checkBox_7 = new QCheckBox(Widget);
         checkBox_7->setObjectName("checkBox_7");
         checkBox_7->setEnabled(true);
-        checkBox_7->setGeometry(QRect(130, 260, 31, 41));
+        checkBox_7->setGeometry(QRect(110, 260, 31, 41));
         checkBox_7->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -171,7 +181,7 @@ public:
         checkBox_8 = new QCheckBox(Widget);
         checkBox_8->setObjectName("checkBox_8");
         checkBox_8->setEnabled(true);
-        checkBox_8->setGeometry(QRect(130, 300, 31, 41));
+        checkBox_8->setGeometry(QRect(110, 300, 31, 41));
         checkBox_8->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -184,7 +194,7 @@ public:
         checkBox_9 = new QCheckBox(Widget);
         checkBox_9->setObjectName("checkBox_9");
         checkBox_9->setEnabled(true);
-        checkBox_9->setGeometry(QRect(130, 340, 31, 41));
+        checkBox_9->setGeometry(QRect(110, 340, 31, 41));
         checkBox_9->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"
@@ -197,7 +207,7 @@ public:
         checkBox_10 = new QCheckBox(Widget);
         checkBox_10->setObjectName("checkBox_10");
         checkBox_10->setEnabled(true);
-        checkBox_10->setGeometry(QRect(130, 380, 31, 41));
+        checkBox_10->setGeometry(QRect(110, 380, 31, 41));
         checkBox_10->setStyleSheet(QString::fromUtf8("QCheckBox::indicator{\n"
 "	width: 25px;\n"
 "	height: 25px;\n"

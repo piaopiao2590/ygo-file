@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>221</width>
-    <height>463</height>
+    <width>175</width>
+    <height>460</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,11 +19,14 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>30</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>光蕾拉</string>
@@ -32,11 +35,14 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>70</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>风蕾拉</string>
@@ -45,11 +51,14 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>110</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>老头</string>
@@ -58,11 +67,14 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>150</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>文</string>
@@ -71,11 +83,14 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>190</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>皮莉佳</string>
@@ -84,11 +99,14 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>230</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>薇茵达</string>
@@ -97,11 +115,14 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>270</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>雷鹰</string>
@@ -110,11 +131,14 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>310</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>企鹅</string>
@@ -123,11 +147,14 @@
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>350</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>火狮</string>
@@ -136,11 +163,14 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>390</y>
      <width>69</width>
      <height>19</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>星龙</string>
@@ -152,7 +182,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>20</y>
      <width>31</width>
      <height>41</height>
@@ -192,7 +222,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>60</y>
      <width>31</width>
      <height>41</height>
@@ -232,7 +262,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>100</y>
      <width>31</width>
      <height>41</height>
@@ -272,7 +302,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>140</y>
      <width>31</width>
      <height>41</height>
@@ -312,7 +342,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>180</y>
      <width>31</width>
      <height>41</height>
@@ -352,7 +382,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>220</y>
      <width>31</width>
      <height>41</height>
@@ -392,7 +422,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>260</y>
      <width>31</width>
      <height>41</height>
@@ -432,7 +462,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>300</y>
      <width>31</width>
      <height>41</height>
@@ -472,7 +502,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>340</y>
      <width>31</width>
      <height>41</height>
@@ -512,7 +542,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>110</x>
      <y>380</y>
      <width>31</width>
      <height>41</height>
